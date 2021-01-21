@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/site-icon.png" type="image/x-icon">
+  </head>
+  <header>
+    <nav class="menu-lists">
+      <ul>
+        <h1>Menu</h1>
+        <li><a href="#title-image">Images</a></li>
+        <li><a href="#title-videos">Videos</a></li>
+        <li><a href="#title-audio">Audio</a></li>
+        <li><a href="#title-lists">Lists</a></li>
+        <li><a href="#title-tables">Tables</a></li>
+        <li><a href="#title-containers">Containers</a></li>
+        <li><a href="#title-semantic">Semantic Elements</a></li>
+        <li><a href="#title-structure-webpage">Structure Webpage</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <img class="profile" src="images/mosh.jpg" alt="An image of Mosh Hamedani" />
+    <p class="username">@moshhamedani</p>
+    <p>I love to teach you HTML!</p>
+    <p>&lt;HTML&gt; &copy;</p>
+
+    <a href="company/about.html">About Me</a> 
+    
+    <br>
+    
+    <h2 id="title-images">Images</h2>
+    <img class="coffee" src="/images/coffee.jpg" alt="A coffee mug on a table" title="Cofee Mug"/>
+
+    <h2 id="title=videos">Videos</h2>
+    <video src="/videos/ocean.mp4" controls autoplay loop>Your browser doesn't support videos.</video>
+
+    <h2 id="title-audio">Audio</h2>
+    <p>梁静茹 - 勇气</p>
+    <audio src="/audio/梁静茹 - 勇气.flac" controls title="梁静茹 - 勇气">Courage - Fish Leong</audio>
+    <br>
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/wczwwKckbEo?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <h2 id="title-lists">Lists</h2>
+    <h3>Unordered List - Navigation Bar</h3>
+    <ul>
+      <li>About Me</li>
+      <li>Courses
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+        </ul>
+      </li>
+      <li>Subscribe</li>
+      <li>Contact Me</li>
+    </ul>
+
+    <h3>Ordered List</h3>
+      <ol>
+        <li>Preheat the oven.</li>
+        <li>Place the ingredients on the crust.</li>
+        <li>Put the pizza in the oven for 20 minutes.</li>
+      </ol>
+
+      <h3>Description Lists</h3>
+      <dl>
+        <dt>Title</dt>
+        <dd>The Ultimate HTML and CSS Course</dd>
+        <dt>Author</dt>
+        <dd>Mosh Hamedani</dd>
+        <dt>Skills</dt>
+        <dd>HTML</dd>
+        <dd>CSS</dd>
+        <dd>Responsive Design</dd>
+        <dd>Search Engine Optimization (SEO)</dd>
+      </dl>
+
+
+    <h2 id="title-tables">Tables</h2>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>   <!--column span (default = 1) -->
+        </tr>
+        <tr>
+          <th>Category</th> <!-- table header -->
+          <th>Amount</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>  <!-- table row -->
+          <td>Marketing</td>   <!-- table data cell -->
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+      </tr>
+      </tfoot>
+    </table>
+
+    <h2 id="title-containers">Containers</h2>
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">Link</a>
+    </div>
+    <div class="product">
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">Link</a>
+    </div>
+
+    <p><span class="highlight">Lorem</span> ipsum dolor sit amet consectetur adipisicing elit. Ad, quidem.</p>
+
+    <h3>#Note for container elements :</h3> 
+    <ol>
+      <li>"div" element is block-level element (will take up whole row)</li>
+      <li>"span" element is inline-level element (wont take up whole line space)</li>
+    </ol> 
+
+    <h2 id="title-semantic">Semantic Elements</h2>
+    <h3>Generic</h3>
+    <ol>
+      <li>&lt;div&gt;</li>
+      <li>&lt;span&gt;</li>
+    </ol>
+    <h3>Semantic</h3>
+    <ol>
+      <li>&lt;article&gt;</li>
+      <li>&lt;figure&gt;</li>
+      <li>&lt;mark&gt;</li>
+      <li>&lt;time&gt;</li>
+    </ol>
+
+    <article>
+      <h1>Heading</h1>
+      <p>Published <time datetime="2021-01-01 17:00">January 1 2021 05:00pm</time></p>
+      <p>
+        <mark>Lorem</mark> ipsum dolor sit amet consectetur adipisicing elit. Ab itaque, tempora hic quos reprehenderit, 
+        reiciendis magnam odit quia temporibus dicta voluptas aperiam vero velit tenetur ducimus repellendus 
+        alias deserunt maiores architecto repudiandae cupiditate. Sint vitae illum repellat nostrum? Reiciendis, 
+        non obcaecati sunt dolores corporis voluptas dolorum est officiis animi aut.
+      </p>
+      <figure>
+        <img src="" alt="image">
+        <figcaption>My coffee this morning</figcaption>
+      </figure>
+    </article>
+
+    <h2 id="title-structure-webpage">Elements used in Structuring Webpage</h2>
+    <header>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section>
+        <h3>Products</h3>
+        <article>Use &lt;section&gt instead of &lt;div&gt;</article>
+        <article></article>
+        <article></article>
+      </section>
+
+      <section>
+        <h3>Testimonials</h3>
+        <article>
+          <section></section>
+          <section></section>
+          <section></section>
+        </article>
+        <article></article>
+      </section>
+    </main>
+
+    <aside></aside>
+
+    <button class="back-to-top-button"><a href="#">Top</a></button>
+    
+    <footer>
+      <nav>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </nav>
+    </footer>
+
+  </body>
+</html>

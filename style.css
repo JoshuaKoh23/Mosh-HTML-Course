@@ -1,0 +1,95 @@
+h1 {
+  margin: 0;
+}
+
+.menu-lists {
+  display: inline;
+  text-align: center
+}
+
+.menu-lists ul {
+  display: flex;
+  margin: 0;
+}
+
+.menu-lists ul a {
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 2px;
+  float: left;
+  font: "Times New Romans";
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkgray;
+}
+
+.menu-lists ul a:hover {
+  background-color: darkgray;
+  color: white;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Body */
+
+.profile {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .coffee {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .username {
+    font-weight: bold;
+  }
+
+  video {
+    width: 400px;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  table, td, th {
+    border: 1px solid grey;
+    border-collapse: collapse;  /* combine two border of table cell */
+    padding: 5px;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .product {
+    background-color: gold;
+    width: 300px;
+  }
+
+  .highlight {
+    background-color: yellow;
+  }
+
+
+/* Button */
+.back-to-top-button {
+  background-color: grey;
+  border: white;
+  border-radius: 100em;
+  padding: 10px;
+  float: right;
+  position: relative;
+}
+
+.back-to-top-button a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
